@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glowsis-Academy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+   <div class="container-fluid  ">
+        <div class="container-fluid ">
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <img src="images/logo.png" alt=""  height="50" class="d-inline-block align-text-top">
+                      <div class="collapse navbar-collapse offset-lg-2" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="">Our courses</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#contact-us">Contact us</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link " href="#about-us" tabindex="-1" aria-disabled="true">About us</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </header>
+        </div>
+        <div class="container mt-3" id="home">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/web-develepment.jpg" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/work-shop-1-removebg-preview.png" class="d-block w-100" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <section class="course-section mt-5 " >
+            <div class="text-center"> 
+                <h1 >Our courses</h1>
+            </div>
+            <div class="row container mt-5 gap-3 offset-md-1">
+                <div class=" card col-lg-3 col-6 col-md-4 course-section-box">
+                    <img src="images/full stack.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Full-stack web develepment</h5>
+                      <p class="card-text"><strong>Frontend: </strong> HTML, CSS, JavaScript, React.js. <br><strong>Backend: </strong>Node.js / Python
+                        <br><strong>Database: </strong>MySQL / MongoDB <br><strong>Duration:</strong> 6 months <br><strong>Fees:</strong> ₹50,000 
+                    </p>
+                      <a href="" class="card-btn btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#fullStackModal">View the more details</a>
+                    </div>
+                </div> 
+                <div class=" card col-lg-3 col-6 col-md-4 course-section-box" style="width: 18rem;">
+                    <img src="images/data analaysis.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Data Analysis</h5>
+                      <p class="card-text"><strong>Programming: </strong> Python, SQL <br><strong>Visualaization: </strong>Matplotlib, Seaborn, Power BI, Tableau
+                        <br><strong>Big Data: </strong>MySQL / MongoDB <br><strong>Duration:</strong> 6 months <br><strong>Fees:</strong> ₹45,000 
+                    </p>
+                      <a href="" class="card-btn btn btn-outline-primary mt-4" data-bs-toggle="modal" data-bs-target="#dataAnalysisModal">View the more details</a>
+                    </div>
+                </div>
+                <div class=" card col-lg-3 col-6 col-md-4 course-section-box" style="width: 18rem;">
+                    <img src="images/flutter.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Flutter Development </h5>
+                      <p class="card-text"><strong>Programming: </strong>Dart<br><strong>Framework: </strong>Flutter
+                        <br><strong>Big Data: </strong>MySQL / MongoDB <br><strong>Duration:</strong> 6 months <br><strong>Fees:</strong> ₹60,000 
+                    </p>
+                      <a href="" class="card-btn btn btn-outline-primary mt-5" data-bs-toggle="modal" data-bs-target="#flutterModal">View the more details</a>
+                    </div>
+                </div>
+                <div class=" card col-lg-3 col-6 col-md-4 course-section-box" style="width: 18rem;">
+                    <img src="images/cybersecurity.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Cyber Security </h5>
+                      <p class="card-text"><strong>Security Basics: </strong>Firewalls<br><strong>Ethical Hacking: </strong>Kali Linux
+                        <br><strong>Security Tools:</strong>, Nmap, Nessus <br><strong>Duration:</strong> 12 months <br><strong>Fees:</strong> ₹1,00,000 
+                    </p>
+                      <a href="" class="card-btn btn btn-outline-primary mt-5" data-bs-toggle="modal" data-bs-target="#CyberSecurityModal">View the more details</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="modal fade" id="fullStackModal"   aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Full-stack Web Development</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/full stack.jpg" class="img-fluid rounded mb-3" alt="Full Stack Development">
+                            <strong>Frontend: </strong> HTML, CSS, JavaScript, React.js. <br><strong>Backend: </strong>Node.js / Python
+                            <br><strong>Database: </strong>MySQL / MongoDB <br><strong>Duration:</strong> 6 months <br><strong>Fees:</strong> ₹50,000
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="modal fade" id="dataAnalysisModal" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" >Data Analysis</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/data analaysis.jpg" class="img-fluid rounded mb-3" alt="data analysis">
+                            <strong>Programming: </strong> Python, SQL <br><strong>Visualaization: </strong>Matplotlib, Seaborn, Power BI, Tableau
+                            <br><strong>Big Data: </strong>MySQL / MongoDB <br><strong>Duration:</strong> 6 months <br><strong>Fees:</strong> ₹45,000 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="flutterModal" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" >Flutter Development</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/flutter.jpg" class="img-fluid rounded mb-3" alt="data analysis">
+                            <strong>Programming: </strong>Dart<br><strong>Framework: </strong>Flutter
+                        <br><strong>Big Data: </strong>MySQL / MongoDB <br><strong>Duration:</strong> 6 months <br><strong>Fees:</strong> ₹60,000
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="CyberSecurityModal" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" >Cyber Security </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/cybersecurity.jpg" class="img-fluid rounded mb-3" alt="cybersecurity">
+                            <strong>Security Basics: </strong>Firewalls<br><strong>Ethical Hacking: </strong>Kali Linux
+                            <br><strong>Security Tools:</strong>, Nmap, Nessus <br><strong>Duration:</strong> 12 months <br><strong>Fees:</strong> ₹1,00,000 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-section py-5" id="contact-us">
+            <div class="container-fluid ">
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-4 mb-lg-0">
+                        <img src="images/7040859.jpg"  class="" alt="Contact Image">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="mb-4">Get in Touch</h2>
+                        <p><strong>Address:</strong>5th Floor, SDF Building, Kinfra Techno Industrial Park, Calicut University P.O., Kakkancheri, Kerala - 673635</p>
+                        <p><strong>Email:</strong> academy@glowsis.com</p>
+                        <p><strong>Phone:</strong> +91 99618 01300</p>
+                        <p><strong>Working Hours:</strong> Mon - Fri: 9:00 AM - 6:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section py-5" id="about-us">
+            <h1 class="text-center">About Us</h1>  
+            <div class="container-fluid ">
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-4 mb-lg-0">
+                        <img src="images/about.jpg"  class="" alt="Contact Image">
+                    </div>
+                    <div class="col-md-6"> 
+                        <p>Glowsis Academy is a premier institution specializing in software training and professional development. Their mission is to empower individuals with cutting-edge skills and knowledge in software development, ensuring they are equipped to excel in the tech industry.         
+                            Vision: To be the premier global institute for software training, fostering innovation and excellence in the tech community.
+                            
+                            Mission: To provide top-tier software training programs that prepare students and professionals to thrive in a dynamic and ever-evolving technological landscape. 
+                           
+                            <br><br>
+                     
+                            The academy offers a range of courses, including programming languages, web development, database management, and professional development. Their facilities feature modern classrooms, a state-of-the-art learning management system, expert instructors, and a comprehensive resource library. 
+                            
+                            
+                            Glowsis Academy is affiliated with leading tech organizations and educational bodies, ensuring their programs meet industry standards. They collaborate with top tech companies to provide students with real-world experience and networking opportunities.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer-section">
+            <footer class="bg-body-tertiary ">
+              <div class="container p-4">
+                <div class="row">
+                  <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Glowsis Academy</h5>
+                    <p>
+                        Glowsis Academy is a premier institution specializing in software training and professional development. Their mission is to empower individuals with cutting-edge skills and knowledge in software development, ensuring they are equipped to excel in the tech industry. <a class="text-light text-decoration-none" href="#about-us">Read more...</a>
+                    </p>
+                  </div>
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Links</h5>
+          
+                    <ul class="list-unstyled mb-0 text-">
+                      <li>
+                        <a href="#home" class="text-light text-decoration-none">Home</a>
+                      </li>
+                      <li>
+                        <a href="#our-courses" class="text-light text-decoration-none">Our Courses </a>
+                      </li>
+                      <li>
+                        <a href="#contact-us" class="text-light text-decoration-none">Contact us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </footer>
+          </section>
+        
+
+    </div>
+    <script src="https://kit.fontawesome.com/YOUR-KIT-ID.js" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
